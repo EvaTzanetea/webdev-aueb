@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For</title>
+</head>
+<body>
+
+<!--     <script>
+        //Εμφανίζει 10 οριζόντια αστεράκια
+        //To let = 1; είναι η αρχική τιμή της μεταβλητής
+        //Το i <= 10; είναι η συνθήκη ελέγχου
+        //Το i++ είναι το βήμα αύξησης (αυξάνει κατα 1)
+        for (let i = 1; i <= 10; i++){
+            document.write('*')
+        }
+    </script> -->
+
+<!-- <script>
+    //Εμφανίζει 10 κάθετα αστεράκια
+    for (let i = 1; i<= 10; i++) {
+        document.write('*');
+        document.write('<br>');
+    }
+</script>
+ -->
+
+<!-- <script>
+    // Εμφανίζει 10 γραμμές με 10 αστεράκια η κάθε γραμμή
+    for (let i = 1; i <= 10; i++) {
+        for (let j = 1; j <= 10; j++) {
+            document.write('*');
+        } 
+        document.write('<br>');         
+    }
+</script> -->
+
+<!-- <script>
+    // Εμφανίζει 10 γραμμές με 1 αστεράκι πρώτη γραμμή
+    // με 2 αστεράκια στην δευτερη γραμμή
+    // με 3 αστεράκια στην τρίτη γραμμή κλπ.
+    for (let i = 1; i <= 10; i++) {
+        for (let j = 1; j <= i; j++) {
+            document.write('*');
+        } 
+        document.write('<br>');         
+    }
+</script> -->
+<script>
+    // Εμφανίζει 10 γραμμές με 10 αστεράκιa πρώτη γραμμή
+    // με 9 αστεράκια στην δευτερη γραμμή
+    // με 8 αστεράκια στην τρίτη γραμμή κλπ.
+    for (let i = 1; i <= 10; i++) {
+        for (let j = 1; j <= 11-i; j++) {
+            document.write('*');
+        } 
+        document.write('<br>');         
+    }
+</script>
+
+</body>
+</html>
